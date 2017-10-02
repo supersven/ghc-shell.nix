@@ -3,7 +3,7 @@ A shell.nix file to build GHC (Glasgow Haskell Compiler) on NixOS.
 
 In other words: Some parts of `haskell.compiler.ghcHEAD` (https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/compilers/ghc/head.nix) translated to a shell.nix file. 
 
-_Disclaimer_: This works for me on my machine. I might have forgot some dependencies that were already installed in my environment. Please put me a note or make a pull request if you had to tweak this `shell.nix` file further.
+_Disclaimer_: This works for me on my machine. I might have forgotten some dependencies that were already installed in my environment. Please put me a note or make a pull request if you had to tweak this `shell.nix` file further.
 
 ## Usage
 - Clone the GHC Git repository as described in https://ghc.haskell.org/trac/ghc/wiki/Building/GettingTheSources.
@@ -14,7 +14,7 @@ _Disclaimer_: This works for me on my machine. I might have forgot some dependen
 So, if you cloned the GHC repository to `/home/username/src/ghc` and this repository to `/home/username/src/ghc-shell.nix`:
 ```
 cd /home/username/src/ghc
-cp /home/username/src/ghc-shell.nix .
+cp /home/username/src/ghc-shell.nix/shell.nix .
 
 #edit mk/build.mk as usual
 
