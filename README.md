@@ -12,7 +12,7 @@ _Disclaimer_: This works for me on my machine. I might have forgotten some depen
 - Build as usual but use `$configureFlags` for the `configure` script.
 
 So, if you cloned the GHC repository to `/home/username/src/ghc` and this repository to `/home/username/src/ghc-shell.nix`:
-```
+```bash
 cd /home/username/src/ghc
 cp /home/username/src/ghc-shell.nix/shell.nix .
 
