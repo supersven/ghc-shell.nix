@@ -26,3 +26,11 @@ nix-shell # this will fork a new shell with all tools needed to build GHC
 make # use more cores with -j NUM_OF_CORES, e.g. -j8
 ```
 
+## Additional Packages
+There are some additional packages in this `shell.nix` that make development more convenient:
+- ghc-mod 
+- hlint 
+- apply-refact 
+- stylish-haskell 
+- hasktags 
+- hoogle
