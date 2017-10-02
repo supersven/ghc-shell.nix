@@ -34,3 +34,6 @@ There are some additional packages in this `shell.nix` that make development mor
 - stylish-haskell 
 - hasktags 
 - hoogle
+
+## Alternatives
+- `shell.nix` of @mpickering : https://gist.github.com/mpickering/002fbdd0db02dee43c2af35e5cfb0c91
