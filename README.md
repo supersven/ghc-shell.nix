@@ -1,3 +1,5 @@
+**This project is deprecated - Please use https://github.com/alpmestan/ghc.nix**
+
 # ghc-shell.nix
 A shell.nix file to build GHC (Glasgow Haskell Compiler) on NixOS.
 
